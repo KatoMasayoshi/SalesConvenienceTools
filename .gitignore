@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Django
+db.sqlite3
+*.sqlite3
+/media/
+/staticfiles/      # collectstatic の出力をコミットしない場合
+
+# Secrets / Env
+.env
+.env.*
+*.key
+*.pem
+
+# Node（使ってるなら）
+node_modules/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
